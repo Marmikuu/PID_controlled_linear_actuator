@@ -1,6 +1,8 @@
 # PID_controlled_linear_actuator
 A belt-driven linear actuator from recycled ink printer. Controlled by PID controller implemented on STM32 Nuleo Board. This project will also include a comparision of different position control algorithms.
 
+The third goal is to compare different methods of displacement measurement, i'll try to compare ultrasonic sensor (HC-SR04) with encoder-based position feedback.
+
 The linear encoder in this system is implemented using a slotted optocoupler and an encoder strip with markings. I’ve attached a photo that shows a close-up of the device.
 ![optocoupler](https://github.com/user-attachments/assets/5379347d-ad52-4ae9-aa2b-9654e58f6a97)
 
